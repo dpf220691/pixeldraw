@@ -1,0 +1,31 @@
+#
+# line x1 y1 x2 y2
+# move x1 y1 x2 y2
+# rotate a
+# scale f
+#
+# wait ms
+# remove si
+# color r g b
+
+line 0 0 3 4
+wait 2000
+move 0 0 15 15
+wait 2000
+line 0 0 -1 15
+wait 2000
+remove 1
+wait 2000
+line 0 0 -1 15
+wait 2000
+rotate 90
+wait 2000
+line 15 -1 5 -5
+wait 2000
+color 255 0 0
+line 0 0 -1 15
+wait 2000
+scale 2
+wait 2000
+rotate -25
+scale 0.5
